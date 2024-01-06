@@ -1,6 +1,8 @@
 const accountId = 144553;
 let accountEmail = 'tanha@gmail.com';
 var accountPassword = '12345';
+
+// a way to declare a variable. but it is not a best practice.
 accountCity = "dhaka";
 
 // changing const variable
