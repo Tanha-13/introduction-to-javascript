@@ -17,37 +17,38 @@
    - array
    - function
 
-<table>
+
+<table style='width:100%'>
 <tr>
-<th>Primitive</th>
-<th>Non-Primitive</th>
+<th style='text-align:center; color:#00ff00'>Primitive</th>
+<th style='text-align:center; color:#00ff00'>Non-Primitive</th>
 </tr>
 <tr>
-<th>Number</th>
-<th>array</th>
+<td style='text-align:center'>Number</td>
+<td style='text-align:center'>array</td>
 </tr>
 <tr>
-<th>BigInt</th>
-<th>object</th>
+<td style='text-align:center'>BigInt</td>
+<td style='text-align:center'>object</td>
 </tr>
 <tr>
-<th>String</th>
-<th>function</th>
+<td style='text-align:center'>String</td>
+<td style='text-align:center'>function</td>
 </tr>
 <tr>
-<th>Boolean</th>
-<th>-</th>
+<td style='text-align:center'>Boolean</td>
+<td style='text-align:center'>-</td>
 </tr>
 <tr>
-<th>null</th>
-<th>-</th>
+<td style='text-align:center'>null</td>
+<td style='text-align:center'>-</td>
 </tr>
 <tr>
-<th>undefined</th>
-<th>-</th>
+<td style='text-align:center'>undefined</td>
+<td style='text-align:center'>-</td>
 </tr>
 <tr>
-<th>Symbol</th>
-<th>-</th>
+<td style='text-align:center'>Symbol</td>
+<td style='text-align:center'>-</td>
 </tr>
 </table>
