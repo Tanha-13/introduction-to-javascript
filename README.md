@@ -1,6 +1,31 @@
 # Introduction to JavaScript
 
 ## Variables
+**A variable is a container or named storage for data/value.**
+<br>
+Three ways to declare a variable in JavaScript:
+
+1. **var** keyword
+     - used to declare variables before ES6. 
+     ```
+     var message = "Hello";
+     var message = "Hello1"; // re-declared
+     message ="World"; // reassigned
+     ```
+2. **let** keyword
+     - let is used to define variables. User can reassign values in these variables.
+     ```
+     let message = "Hello";
+     let message = "Hello1"; // SyntaxError: Identifier message has already been declared.
+     message ="World"; // reassigned
+     ```
+3. **const** keyword
+     - used for constant(unchanging) variables. Variables can not be re-declared and re-assigned.
+     ```
+     const message = "Hello";
+     const message = "Hello1"; // error
+     message ="World"; // TypeError: Assignment to constant variable
+     ```
 
 ## Data types
 
@@ -18,37 +43,3 @@
    - function
 
 
-<table style='width:100%'>
-<tr>
-<th style='text-align:center; color:#00ff00'>Primitive</th>
-<th style='text-align:center; color:#00ff00'>Non-Primitive</th>
-</tr>
-<tr>
-<td style='text-align:center'>Number</td>
-<td style='text-align:center'>array</td>
-</tr>
-<tr>
-<td style='text-align:center'>BigInt</td>
-<td style='text-align:center'>object</td>
-</tr>
-<tr>
-<td style='text-align:center'>String</td>
-<td style='text-align:center'>function</td>
-</tr>
-<tr>
-<td style='text-align:center'>Boolean</td>
-<td style='text-align:center'>-</td>
-</tr>
-<tr>
-<td style='text-align:center'>null</td>
-<td style='text-align:center'>-</td>
-</tr>
-<tr>
-<td style='text-align:center'>undefined</td>
-<td style='text-align:center'>-</td>
-</tr>
-<tr>
-<td style='text-align:center'>Symbol</td>
-<td style='text-align:center'>-</td>
-</tr>
-</table>
