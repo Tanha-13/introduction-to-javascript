@@ -1,10 +1,10 @@
-// declare a variable using let keyword and assign value using assignment operator (=)
+// ! declare a variable using let keyword and assign value using assignment operator (=)
 let message = 'Hello';
-// this variable can be reassigned.
+// imp: this variable can be reassigned.
 message = 'World';
-// this variable can be copied to another variable
+// ! this variable can be copied to another variable
 let hello = message; // hello = 'World'
-console.log(hello);
+// console.log(hello);
 // ! variable can not be re-declared.
 // let message = 'Hello world'; //? it will generate error - SyntaxError: Identifier 'message' has already been declared.
 console.log(message);
@@ -29,9 +29,9 @@ let currentName = 'Nusrat',
 
 
     /*************Constant Variables***************** */
-    // to declare a constant variable, const keyword is used instead of let keyword.
+    // ! to declare a constant variable, const keyword is used instead of let keyword.
     const myRealName = 'Nusrat Zaman';
-    // constant variables can not be re-declared nor re-assigned.
+    // imp: constant variables can not be re-declared nor re-assigned.
     // const myRealName = 'Tanha'; // ? SyntaxError: Identifier 'myRealName' has already been declared.
     // myRealName = 'Tanha'; // ? TypeError: Assignment to constant variable.
 
@@ -40,4 +40,3 @@ let currentName = 'Nusrat',
     // ! use as aliases for difficult-to-remember values
     const COLOR_RED = "#F00";
     let color = COLOR_RED; // color = '#F00'
-    
