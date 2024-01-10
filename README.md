@@ -6,21 +6,21 @@
 ### Declarations
 Three ways to declare a variable in JavaScript:
 
-1. **var** keyword
+1. `var` keyword
      - used to declare variables before ES6. 
      ```
      var message = "Hello";
      var message = "Hello1"; // re-declared
      message ="World"; // reassigned
      ```
-2. **let** keyword
+2. `let` keyword
      - let is used to define variables. User can reassign values in these variables.
      ```
      let message = "Hello";
      let message = "Hello1"; // SyntaxError: Identifier message has already been declared.
      message ="World"; // reassigned
      ```
-3. **const** keyword
+3. `const` keyword
      - used for constant(unchanging) variables. Variables can not be re-declared and re-assigned.
      ```
      const message = "Hello";
@@ -58,4 +58,9 @@ Some good-to-follow rules are:
    - array
    - function
 
-
+## Memory Management
+* `Stack` memory
+   - Primitive
+* `Heap` memory
+   - Non-primitive
+![basic overview of memory in javascript](./memory.png "basic overview of memory")
