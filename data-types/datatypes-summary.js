@@ -7,7 +7,7 @@
 /**
  * Primitive: call by value.
         7 types - Number, bigint, String, boolean, null, undefined, Symbol
- * Non-primitive or reference type: object, array
+ * Non-primitive or reference type: object, array,function
  */
 
 const score = 100; //Number
